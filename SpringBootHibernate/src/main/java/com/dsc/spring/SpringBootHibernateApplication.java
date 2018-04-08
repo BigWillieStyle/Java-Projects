@@ -14,7 +14,7 @@
  * Created by William Williams on 4/07/18.
  * Copyright © 2018 DSC. All rights reserved.
  */
-package com.dsc.blockchain;
+package com.dsc.spring;
 
 import java.util.List;
 import java.util.Optional;
@@ -24,8 +24,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.dsc.blockchain.entity.User;
-import com.dsc.blockchain.service.UserService;
+import com.dsc.spring.entity.User;
+import com.dsc.spring.service.UserService;
 
 @SpringBootApplication
 public class SpringBootHibernateApplication  implements CommandLineRunner

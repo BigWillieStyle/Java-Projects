@@ -14,7 +14,7 @@
  * Created by William Williams on 4/07/18.
  * Copyright © 2018 DSC. All rights reserved.
  */
-package com.dsc.blockchain.service;
+package com.dsc.spring.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,8 +22,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dsc.blockchain.entity.User;
-import com.dsc.blockchain.repository.UserRepository;
+import com.dsc.spring.entity.User;
+import com.dsc.spring.repository.UserRepository;
 
 @Service
 public class UserServiceImpl implements UserService

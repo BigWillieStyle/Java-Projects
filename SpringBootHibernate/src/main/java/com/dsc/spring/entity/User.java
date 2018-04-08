@@ -14,7 +14,7 @@
  * Created by William Williams on 4/07/18.
  * Copyright © 2018 DSC. All rights reserved.
  */
-package com.dsc.blockchain.entity;
+package com.dsc.spring.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

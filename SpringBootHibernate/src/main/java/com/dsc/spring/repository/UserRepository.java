@@ -14,7 +14,7 @@
  * Created by William Williams on 4/07/18.
  * Copyright © 2018 DSC. All rights reserved.
  */
-package com.dsc.blockchain.repository;
+package com.dsc.spring.repository;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.dsc.blockchain.entity.User;
+import com.dsc.spring.entity.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Integer>
